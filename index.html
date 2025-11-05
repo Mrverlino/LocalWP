@@ -85,9 +85,48 @@
         </h2>
         <h4 class="heading smallh mt-4">An effortless way to develop WordPress  sites locally</h4>
     
-<button class="btn-primary mt-5 ms-5 mb-2">Download for free </button>
+<button class="btn-primary mt-5 ms-5 mb-2" data-bs-toggle="modal" data-bs-target="#myModal">Download for free </button>
     
    <br> <a href="#" class="Hosting links ">GET HOSTING <i class="bi bi-chevron-compact-right" ></i></a>
+
+   <!-- The Modal -->
+<div class="modal modal-dialog modal-sm" id="myModal">
+  <div class="modal-dialog ">
+    <div class="modal-content ">
+
+      <!-- Modal Header -->
+      <div class="modal-header ">
+        <h4 class="modal-title fheading">Looks like you're on a mobile device!</h4>
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body ">
+      <p>
+          local is only available on desktop application, but no worries! Just enter
+          <br>your email in the box below and well send you a little reminder to download it
+          <br>Via your desktop.
+
+          <form action="">
+
+            <input type="text" size="20px"  placeholder="Email">
+            <br>
+            <br>
+            <button type="submit" class="btn-primary">GET A REMINDER </button>
+          </form>
+
+        </p>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer ">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
 
    <div class="animation mt-4">
 <img src="Images/download.png" alt="" width="100%" height="100%">
@@ -327,35 +366,10 @@ WP Engine is not endorsed or owned by, or affiliated with, the WordPress Foundat
     </footer>
     
      </div>
-     <!--
-
-     <div class="modal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
--->
+     
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
 
-const myModal = document.getElementById('myModal')
-const myInput = document.getElementById('myInput')
-
-myModal.addEventListener('shown.bs.modal', () => {
-  myInput.focus()
-})
 
 </script>
 </body>
