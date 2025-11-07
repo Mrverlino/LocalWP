@@ -135,3 +135,6 @@ input[type="text"]{
     padding: 3px;
     border: 5px grey;
 }
+.main_btns{
+    align-content: center;
+}
